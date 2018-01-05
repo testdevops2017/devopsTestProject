@@ -1,2 +1,2 @@
-cd /home/ec2-user/apps/test1/target/classes/
+cd /home/ec2-user/apps/test2/target/classes/
 java Main
