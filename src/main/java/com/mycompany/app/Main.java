@@ -1,13 +1,17 @@
 
-
 /**
  * Hello world!
  *
  */
-public class Main
+ 
+
+public class Main 
 {
-    public static void main( String[] args )
+    public static void main( String[] args )throws Exception
     {
-        System.out.println( "Hello World!" );
+    	while(true){
+        	Thread.sleep(4000);
+        	//System.out.println("saysaysay");
+        }
     }
 }
