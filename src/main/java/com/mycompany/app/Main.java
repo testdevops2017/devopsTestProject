@@ -4,9 +4,12 @@
  *
  */
  
+package com.mycompany.app;
 
 public class Main 
 {
+ 
+ 
     public static void main( String[] args )throws Exception
     {
     	while(true){
@@ -14,4 +17,30 @@ public class Main
         	//System.out.println("saysaysay");
         }
     }
+ 
+    public int sum(int a, int b) {
+    return a+b;
+    }
+
+    public int sub(int a, int b) {
+    return a-b;
+    }
+
+    public int mult(int a, int b) {
+    return a*b;
+    }
+ 
+    public double sumDouble (double a, double b){
+    return a + b ;
+    }
+ 
+    public String retString(String a){
+    return a;
+    }
+ 
+    public String StringAdder(String a,String b){
+    return a+b;
+    }
+ 
+ 
 }
