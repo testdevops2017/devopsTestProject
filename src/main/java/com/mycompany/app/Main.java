@@ -12,10 +12,11 @@ public class Main
  
     public static void main( String[] args )throws Exception
     {
-    	while(true){
+    	/*while(true){
         	Thread.sleep(4000);
         	//System.out.println("saysaysay");
-        }
+        }*/
+      System.out.println("alooooooo");
     }
  
     public int sum(int a, int b) {
