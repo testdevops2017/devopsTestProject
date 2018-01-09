@@ -5,12 +5,12 @@ public class Main
     public static void main( String[] args )throws Exception
     {
     	try{
-    		PrintWriter writer = new PrintWriter("test_out.txt", "UTF-8");
-			writer.println("Ornek Dosya , Deployment");
-			writer.close();
-		}catch (Exception e)
-		{
-		}
+		PrintWriter writer = new PrintWriter("test_out.txt", "UTF-8");
+		writer.println("Ornek Dosya , Deployment");
+		writer.close();
+	}catch (Exception e)
+	{
+	}
 		
     }
 
@@ -23,7 +23,7 @@ public class Main
     }
 
     public static int mult(int a, int b) {
-   		return a*b;
+   	return a*b;
     }
  
     public static double sumDouble (double a, double b){
